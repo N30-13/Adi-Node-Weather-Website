@@ -19,7 +19,7 @@ weatherFrom.addEventListener('submit',(e) => {
         messageTwo.textContent = data.error
         console.log(data.error)
       } else {
-        messageTwo.textContent = 'In ' + data.location + ' it is currently ' + data.temperature
+        messageTwo.textContent = 'In ' + data.location + ' it is currently ' + data.temperature + "° farenheight. It feels like " + data.feels_like
         console.log(data.location)
         console.log(data.temperature)
       }
