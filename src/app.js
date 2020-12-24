@@ -39,7 +39,7 @@ app.get('/about',(req,res) =>{
 app.get('/help',(req,res) =>{
   res.render('help', {
     title: 'Help Page',
-    response: 'I am happy to help...Your Truly, Sreedi',
+    response: 'I am happy to help...Your Truly, Adi',
     name: 'Adi C'
   })
 })
